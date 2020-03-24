@@ -1,0 +1,416 @@
+/* deep pink #EA3A60
+pink #FCF0F2
+blog #F5F5F5
+footer #1A1A1A */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Home section */
+
+
+/* Nav Section */
+
+#home {
+    background-color: #FCF0F2;
+    height: 100vh;
+}
+
+#home .container .bg-light {
+    background-color: #FCF0F2 !important;
+}
+
+#home .container .navbar .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#home .container .navbar .navbar-brand span {
+    color: #EA3A60;
+}
+
+#home .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#home .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #EA3A60;
+    text-decoration: underline;
+}
+
+#home .container .row {
+    margin-top: 12%;
+}
+
+#home .container .row .col-md-6 h1 {
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+#home .container .row .col-md-6 h1 span {
+    color: #EA3A60;
+}
+
+#home .container .row .col-md-6 p {
+    font-weight: 300;
+}
+
+#home .container .row .col-md-6 .btn {
+    background-color: #EA3A60;
+    border: none;
+    box-shadow: 0px 0px 10px 1px #EA3A60;
+}
+
+
+/* Our Services Section */
+
+#service {
+    padding: 7% 0;
+}
+
+#service .container .row {
+    text-align: center;
+}
+
+#service .row .col-md-4 .card {
+    transition: 0.5s;
+    border: none;
+    box-shadow: 0 0 12px 0px rgba(0, 0, 0, .125);
+}
+
+#service .row .col-md-4 .card .card-title i {
+    margin-left: 36%;
+    background-color: #EA3A60;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#service .row .col-md-4 .card:hover,
+#service .row .col-md-4 .card a:hover {
+    color: #fff !important;
+    background-color: #EA3A60;
+}
+
+
+/* Exprience Section */
+
+#exprience {
+    padding: 3% 0;
+    background-color: #f5f5f5;
+}
+
+#exprience .container .row .exprienceContent {
+    margin-top: 10%;
+    transition: 1s;
+}
+
+#exprience .container .row .exprienceContent h1 {
+    color: rgb(207, 207, 207);
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+#exprience .container .row .exprienceContent h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #EA3A60;
+    text-decoration: underline;
+}
+
+#exprience .container .row .exprienceContent h2 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+#exprience .container .row .exprienceContent .btn {
+    background-color: #EA3A60;
+    border: none;
+    box-shadow: 0px 0px 10px 1px #EA3A60;
+}
+
+
+/* Other Section */
+
+#other {
+    padding: 3% 0;
+    background-color: #E94F71;
+    text-align: center;
+    color: #f5f5f5;
+    transition: 1s;
+}
+
+#other .container i {
+    color: #EA3A60;
+}
+
+#other .container h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+#other .container p {
+    padding: 0 5rem;
+}
+
+#other .container .row .col-md-3 .card {
+    color: #000;
+    transition: 0.6s;
+}
+
+#other .container .row .col-md-3 .card:hover {
+    color: #fff !important;
+    background-color: rgb(252, 192, 205);
+}
+
+#other .container .row .col-md-3 .card h1 {
+    color: #EA3A60;
+}
+
+
+/* Our Teams */
+
+#ourteam {
+    padding: 3% 0;
+    background-color: #FEF3F7;
+}
+
+#ourteam .row .col-md-4 .card {
+    transition: 0.5s;
+    border: none;
+    box-shadow: 0 0 12px 0px rgba(0, 0, 0, .125);
+    transition: 0.6s;
+}
+
+#ourteam .row .col-md-4 .card .card-body h4 {
+    text-transform: uppercase;
+}
+
+#ourteam .row .col-md-4 .card:hover {
+    background-color: rgb(240, 145, 166);
+    color: #fff;
+}
+
+
+/* Price */
+
+#price {
+    padding: 3rem 0;
+    transition: 0.6s;
+}
+
+#price .row .priceMiddle .card,
+#price .row .priceP .card:hover {
+    background-color: #E94F71;
+    color: #fff;
+}
+
+#price .row .priceMiddle .card:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#price .row .priceMiddle .card .card-body .btn,
+#price .row .priceP .card .card-body .btn {
+    font-weight: bold;
+}
+
+#price .row .priceP .card .card-body .btn {
+    border: 2px solid #EA3A60;
+    color: #EA3A60;
+}
+
+#price .row .priceMiddle .card .card-body .btn:hover,
+#price .row .priceP .card .card-body .btn:hover {
+    color: #E94F71;
+}
+
+#price .row .col-md-3 .card {
+    transition: 0.5s;
+    border: none;
+    box-shadow: 0 0 12px 0px rgba(0, 0, 0, .125);
+    transition: 0.6s;
+}
+
+
+/* Blog Section */
+
+#blog {
+    padding: 3% 0;
+    background-color: rgb(245, 233, 235);
+    transition: 0.6s;
+}
+
+#blog .container .row .col-md-4 .card {
+    transition: 0.5s;
+    border: none;
+    box-shadow: 0 0 12px 0px rgba(0, 0, 0, .125);
+    transition: 0.6s;
+}
+
+#blog .container .row .col-md-4 .card .card-body .card-text {
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+#blog .container .row .col-md-4 .card .card-body a {
+    margin-left: 5rem;
+    color: #EA3A60;
+    font-weight: 500;
+}
+
+
+/* Footer section */
+
+#footer {
+    padding: 3% 0;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+
+#footer h6 {
+    color: #EA3A60;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#footer input {
+    width: 45%;
+    height: 50px;
+    padding: 0 0.5rem;
+    background-color: rgb(49, 49, 49);
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+#footer button {
+    width: 10%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #EA3A60;
+    color: #fff;
+    font-weight: 600;
+}
+
+#footer .container .row .col-md-3 h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#footer .container .row .col-md-3 h5 span {
+    color: #EA3A60;
+}
+
+#footer .container .row .col-md-3 .navbar-nav .nav-item .nav-link:hover {
+    color: #EA3A60 !important;
+}
+
+
+/* Copy Right */
+
+footer {
+    background-color: #000;
+    color: #f5f5f5;
+}
+
+footer .container p span {
+    color: #E94F71;
+}
+
+
+/* Media */
+
+@media screen and (max-width:578px) {
+    #home .container .navbar .navbar-collapse .navbar-nav .nav-item {
+        text-align: center;
+    }
+    #home .container .row {
+        padding: 1rem;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    #home .container .row .col-md-6 h1 {
+        font-size: 2rem;
+    }
+    #service {
+        padding: 2rem;
+        margin-top: 6rem;
+    }
+    #service .row .col-md-4 {
+        margin-top: 2rem;
+    }
+    #exprience .container .row .exprienceContent {
+        padding: 2rem;
+        text-align: center;
+    }
+    #other .container h1 {
+        font-size: 1.5rem;
+    }
+    #other .container .row .col-md-3 {
+        margin-top: 2rem;
+    }
+    #ourteam {
+        padding: 3rem 2rem;
+    }
+    #ourteam .container .row .col-md-4 {
+        margin-top: 2rem;
+    }
+    #price {
+        padding: 3rem 4rem;
+    }
+    #price .row .col-md-3 {
+        margin-top: 3rem;
+    }
+    #blog {
+        padding: 2rem 1rem;
+    }
+    #blog .container h1,
+    #price h1 {
+        font-size: 2rem;
+    }
+    #blog .container .row .col-md-4 {
+        margin-top: 3rem;
+    }
+    #blog .container .row .col-md-4 .card .card-body a {
+        margin-left: 2rem;
+    }
+    #footer {
+        padding: 3rem 1rem;
+    }
+    #footer .container h1 {
+        font-size: 2rem;
+    }
+    #footer .container input {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #footer .container button {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #footer .container .row {
+        padding: 0.5rem 2rem;
+        text-align: center !important;
+    }
+    #footer .container .row .col-md-3 {
+        margin-top: 3rem;
+    }
+    footer .container p {
+        font-size: 0.8rem;
+    }
+    footer .container p span {
+        font-weight: bold;
+    }
+}
